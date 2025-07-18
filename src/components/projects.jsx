@@ -1,7 +1,6 @@
 // src/components/Projects.jsx
 import React from 'react';
 
-// Example projects data with images
 const projects = [
   {
     name: "KHUSI VEGA",
@@ -12,7 +11,7 @@ const projects = [
   {
     name: "ASHINAN REGAL",
     description: "A modern shopping mall featuring international brands and food courts.",
-    status: "Upcomming",
+    status: "Upcoming",
     image: "/assets/project/AshianaRegal.jpg",
   },
   {
@@ -24,7 +23,7 @@ const projects = [
   {
     name: "KHUSI NOVA",
     description: "A high-rise office building with smart infrastructure and green certification.",
-    status: "Upcomming",
+    status: "Upcoming",
     image: "/assets/project/khusinova.jpg",
   },
   {
@@ -36,7 +35,7 @@ const projects = [
   {
     name: "METRO HAPPY HOME",
     description: "A multi-specialty hospital with cutting-edge medical technology.",
-    status: "Upcomming",
+    status: "Upcoming",
     image: "/assets/project/metrohappyhome.jpg",
   },
 ];
@@ -64,7 +63,6 @@ function Projects() {
                 alt={proj.name}
                 className="w-full h-48 object-cover"
               />
-
               <div className="p-6 flex flex-col h-full">
                 <div className="flex items-center justify-between mb-3">
                   <h2 className="text-xl font-bold text-[#6b4c3b]">{proj.name}</h2>
@@ -94,7 +92,7 @@ function Projects() {
         </div>
       </div>
 
-      {/* Animation keyframes */}
+      {/* Animation Keyframes */}
       <style>
         {`
           @keyframes fade-in-up {

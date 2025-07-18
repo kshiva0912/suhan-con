@@ -1,4 +1,4 @@
-// src/App.js
+// src/App.jsx
 import React from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -14,7 +14,6 @@ import Projects from './components/Projects';
 import Blogs from './components/Blogs';
 import Testimonial from './components/Testimonial';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
-
 
 function LayoutWrapper() {
   const location = useLocation();
