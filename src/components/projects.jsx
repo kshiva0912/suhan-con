@@ -7,37 +7,37 @@ const projects = [
     name: "KHUSI VEGA",
     description: "A luxury residential complex with state-of-the-art amenities and eco-friendly design.",
     status: "Ongoing",
-    image: "public/assets/project/khusivega.jpg",
+    image: "/assets/project/khusivega.jpg",
   },
   {
     name: "ASHINAN REGAL",
     description: "A modern shopping mall featuring international brands and food courts.",
     status: "Upcomming",
-    image: "public/assets/project/AshianaRegal.jpg",
+    image: "/assets/project/AshianaRegal.jpg",
   },
   {
     name: "METRO SAHEED-NAGAR",
     description: "Premium villas along the riverbank, blending nature with modern architecture.",
     status: "Ongoing",
-    image: "public/assets/project/metrosaheednagar.jpg",
+    image: "/assets/project/metrosaheednagar.jpg",
   },
   {
     name: "KHUSI NOVA",
     description: "A high-rise office building with smart infrastructure and green certification.",
     status: "Upcomming",
-    image: "public/assets/project/khusinova.jpg",
+    image: "/assets/project/khusinova.jpg",
   },
   {
     name: "EVOS-AMORA",
     description: "A K-12 campus with advanced learning facilities and sports complexes.",
     status: "Ongoing",
-    image: "public/assets/project/Evos-Amani.webp",
+    image: "/assets/project/Evos-Amani.webp",
   },
   {
     name: "METRO HAPPY HOME",
     description: "A multi-specialty hospital with cutting-edge medical technology.",
     status: "Upcomming",
-    image: "public/assets/project/metrohappyhome.jpg",
+    image: "/assets/project/metrohappyhome.jpg",
   },
 ];
 
