@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.jpg'; // ✅ Make sure this path is correct
+import logo from '../assets/Logo.jpg'; // ✅ Make sure this path is correct
 
 const navItems = [
   { label: 'Home', path: '/' },
