@@ -1,6 +1,6 @@
 // src/components/AboutUs.jsx
 import React from 'react';
-import ceoPhoto from '../assets/logo.jpg'; // Update with your actual image path
+import ceoPhoto from '../assets/Logo.jpg'; // Update with your actual image path
 
 function AboutUs() {
   return (
