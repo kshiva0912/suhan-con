@@ -10,10 +10,10 @@ import ContactUs from './components/ContactUs';
 import Career from './components/Career';
 import HappyClients from './components/HappyClients';
 import Galary from './components/Galary';
-import Projects from './components/Projects';
 import Blogs from './components/Blogs';
 import Testimonial from './components/Testimonial';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
+import Projects from './components/projects';
 
 function LayoutWrapper() {
   const location = useLocation();
