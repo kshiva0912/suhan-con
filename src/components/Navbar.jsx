@@ -23,7 +23,7 @@ function Navbar() {
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Suhan Constructions Logo" className="h-20 w-auto" />
           <span
-  className="text-[#5C4033] text-xl hidden sm:block"
+  className="text-[#5C4033] text-3xl hidden sm:block"
   style={{ fontFamily: 'Charlesworth', fontWeight: 'bold' }}
 >
   Suhan Constructions

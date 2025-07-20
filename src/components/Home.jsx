@@ -72,7 +72,7 @@ function VideoCarousel({ videos }) {
 // --- Other Data (as in your original code) ---
 const logoUrl = 'https://via.placeholder.com/40x40.png?text=Logo';
 const buildingImageUrl = 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80';
-const ownerImageUrl = '/assets/owner.png';
+const ownerImageUrl = '/assets/Owner.jpg';
 
 const underConstructionProjects = [
   {
@@ -186,57 +186,66 @@ function Home() {
       )}
 
       {/* Hero Section */}
-      <section className="pt-20 flex flex-col md:flex-row min-h-[80vh] max-w-7xl mx-auto bg-[#FAF9F6]">
-        <div className="md:w-1/2 flex flex-col justify-center px-8 md:px-16 py-12">
-          <h1
-            style={{
-              ...vidalokaTextStyle,
-              fontWeight: 700,
-              fontSize: '48px',
-              marginBottom: '1.5rem',
-              lineHeight: 1.2,
-            }}
-          >
-            Building Dreams<br />With Integrity & Excellence
-          </h1>
-          <p style={vidalokaTextStyle} className="max-w-lg mb-8">
-            At Suhan Constructions, we deliver top-notch construction services blending innovation and quality.
-          </p>
-          <a
-            href="/projects"
-            className="inline-block bg-[#6b4c3b] text-[#FAF9F6] px-8 py-3 rounded-lg font-semibold hover:bg-[#a1866f] transition"
-            style={{ fontFamily: "'Vidaloka', serif", fontSize: '24px' }}
-          >
-            Explore Our Projects
-          </a>
-        </div>
-        <div className="md:w-1/2">
-          <img
-            src={buildingImageUrl}
-            alt="Building"
-            className="object-cover w-full h-full rounded-l-3xl shadow-lg"
-            style={{ minHeight: '80vh' }}
-          />
-        </div>
-      </section>
+      <section
+  className="relative w-full min-h-screen flex items-center justify-center text-left px-8 md:px-16 py-20 bg-cover bg-center bg-no-repeat"
+  style={{ backgroundImage: `url('/assets/bg.jpg')` }}
+>
+  {/* Overlay with lighter transparency */}
+  <div className="absolute inset-0 bg-black/20 z-10" /> {/* Reduced opacity from /40 to /20 */}
+
+  {/* Content */}
+  <div className="relative z-20 max-w-4xl text-white">
+    <h1
+      style={{
+        ...vidalokaTextStyle,
+        fontWeight: 700,
+        fontSize: '52px',
+        lineHeight: 1.2,
+        marginBottom: '1.5rem',
+        color: '#ffffff', // Ensure text stays white
+      }}
+    >
+      Building Dreams<br />With Integrity & Excellence
+    </h1>
+    <p
+      style={{
+        ...vidalokaTextStyle,
+        fontSize: '20px',
+        color: '#ffffff', // Ensure paragraph text stays white
+      }}
+      className="mb-8 max-w-xl"
+    >
+      At Suhan Constructions, we deliver top-notch construction services blending innovation and quality.
+    </p>
+    <a
+      href="/projects"
+      className="inline-block bg-[#a1866f] hover:bg-[#6b4c3b] text-white px-8 py-4 rounded-lg font-semibold transition"
+      style={{ fontFamily: "'Vidaloka', serif", fontSize: '22px' }}
+    >
+      Explore Our Projects
+    </a>
+  </div>
+</section>
+
+
 
       {/* Stats Section */}
       <section className="max-w-7xl mx-auto mt-12 px-8 md:px-16 py-12 bg-[#FAF9F6]">
         <div className="flex flex-wrap justify-around text-center gap-y-8">
           <div>
-            <span style={numberStyle}>120+</span>
+            <span style={numberStyle}>11</span>
             <div style={labelStyle}>Completed Projects</div>
           </div>
           <div>
-            <span style={numberStyle}>15</span>
+            <span style={numberStyle}>6</span>
             <div style={labelStyle}>Under Construction</div>
           </div>
           <div>
-            <span style={numberStyle}>300+</span>
+            <span style={numberStyle}>150+</span>
             <div style={labelStyle}>Happy Customers</div>
           </div>
           <div>
-            <span style={numberStyle}>25</span>
+            <span style={numberStyle}>10</span>
             <div style={labelStyle}>Years of Legacy</div>
           </div>
         </div>

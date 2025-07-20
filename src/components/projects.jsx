@@ -9,22 +9,10 @@ const projects = [
     image: "/assets/project/khusivega.jpg",
   },
   {
-    name: "ASHINAN REGAL",
-    description: "A modern shopping mall featuring international brands and food courts.",
-    status: "Upcoming",
-    image: "/assets/project/AshianaRegal.jpg",
-  },
-  {
     name: "METRO SAHEED-NAGAR",
     description: "Premium villas along the riverbank, blending nature with modern architecture.",
     status: "Ongoing",
     image: "/assets/project/metrosaheednagar.jpg",
-  },
-  {
-    name: "KHUSI NOVA",
-    description: "A high-rise office building with smart infrastructure and green certification.",
-    status: "Upcoming",
-    image: "/assets/project/khusinova.jpg",
   },
   {
     name: "EVOS-AMORA",
@@ -33,10 +21,22 @@ const projects = [
     image: "/assets/project/Evos-Amani.webp",
   },
   {
+    name: "KHUSI NOVA",
+    description: "A high-rise office building with smart infrastructure and green certification.",
+    status: "Upcoming",
+    image: "/assets/project/khusinova.jpg",
+  },
+  {
     name: "METRO HAPPY HOME",
     description: "A multi-specialty hospital with cutting-edge medical technology.",
     status: "Upcoming",
     image: "/assets/project/metrohappyhome.jpg",
+  },
+  {
+    name: "ASHINAN REGAL",
+    description: "A modern shopping mall featuring international brands and food courts.",
+    status: "Upcoming",
+    image: "/assets/project/AshianaRegal.jpg",
   },
 ];
 

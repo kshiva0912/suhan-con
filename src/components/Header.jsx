@@ -23,9 +23,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Left: Logo + Name */}
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Suhan Constructions Logo" className="h-10 w-auto object-contain" />
+          <img src={logo} alt="Suhan Constructions Logo" className="h-18 w-auto object-contain" />
           <span
-            className="text-[#5C4033] text-2xl hidden sm:block"
+            className="text-[#5C4033] text-3xl hidden sm:block"
             style={{ fontFamily: 'Charlesworth', fontWeight: 'bold' }}
           >
             Suhan Constructions

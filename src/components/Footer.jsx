@@ -83,7 +83,7 @@ function Footer() {
             <ul className="space-y-2 text-base">
               <li><span className="font-medium">Address:</span> plot No-284, Bajaranga Nagar, Jharpada, Bhubaneswar, Odisha-751006</li>
               <li><span className="font-medium">Email:</span> <a href="mailto:constructionsuhan@gmail.com" className="hover:underline text-[#f0e8e0]">constructionsuhan@gmail.com</a></li>
-              <li><span className="font-medium">Contact:</span> <a href="tel:+919064010416" className="hover:underline text-[#f0e8e0]">+91 9064010416</a></li>
+              <li><span className="font-medium">Contact:</span> <a href="tel:+919938728207" className="hover:underline text-[#f0e8e0]">+91 9938728207</a></li>
               <li><span className="font-medium">Web:</span> <a href="https://www.suhanconstruction.com" className="hover:underline text-[#f0e8e0]" target="_blank" rel="noopener noreferrer">www.suhanconstruction.com</a></li>
             </ul>
           </div>
